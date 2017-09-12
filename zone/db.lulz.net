@@ -16,6 +16,3 @@ localhost        A       127.0.0.1
 $ORIGIN   lulz.net.
 ns1              A       192.168.192.1
 ns2              A       192.168.192.2
-
-;added 20170912
-www              A       192.168.192.3
