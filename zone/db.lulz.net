@@ -1,0 +1,19 @@
+;
+; db.lulz.net
+;
+$TTL 86400
+lulz.net.     IN  SOA hkpu01.lulz.net.  its-dns.lulz.net. (
+                         2017091201              ;Serial
+                         10800                   ;Refresh
+                         3600                    ;Retry
+                         604800                  ;Expire
+                         86400)                  ;Minimum
+
+                 NS      ns1.lulz.net.
+                 NS      ns2.lulz.net.
+localhost        A       127.0.0.1
+
+$ORIGIN   lulz.net.
+ns1              A       192.168.192.1
+ns2              A       192.168.192.2
+

@@ -1,0 +1,2 @@
+zone "lulz.net" {
+    type master; file "zone/db.lulz.net";
