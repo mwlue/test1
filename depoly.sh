@@ -1,2 +1,2 @@
 git pull
-docker build -t abcd .
+docker build -t abcd ../
